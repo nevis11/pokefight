@@ -1,5 +1,10 @@
 import * as Phaser from 'phaser';
 import { SCENE_KEYS } from './scene-keys';
+<<<<<<< HEAD
+import { ASSET_KEYS } from '../common/assets';
+
+export class GameScene extends Phaser.Scene {
+=======
 import { ASSET_KEYS, CHEST_REWARD_TO_TEXTURE_FRAME } from '../common/assets';
 import { Player } from '../game-objects/player/player';
 import { KeyboardComponent } from '../components/input/keyboard-component';
@@ -69,12 +74,19 @@ export class GameScene extends Phaser.Scene {
   #switchGroup!: Phaser.GameObjects.Group;
   #rewardItem!: Phaser.GameObjects.Image;
 
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
   constructor() {
     super({
       key: SCENE_KEYS.GAME_SCENE,
     });
   }
 
+<<<<<<< HEAD
+  public create(): void {
+    this.add
+      .text(this.scale.width / 2, this.scale.height / 2, 'Game Scene', { fontFamily: ASSET_KEYS.FONT_PRESS_START_2P })
+      .setOrigin(0.5);
+=======
   get player(): Player {
     return this.#player;
   }
@@ -773,5 +785,6 @@ export class GameScene extends Phaser.Scene {
   #handleBossDefeated(): void {
     DataManager.instance.defeatedCurrentAreaBoss();
     this.#handleAllEnemiesDefeated();
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
   }
 }

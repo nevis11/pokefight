@@ -1,7 +1,10 @@
+<<<<<<< HEAD
+=======
 import * as Phaser from 'phaser';
 import { DIRECTION, LEVEL_NAME } from './common';
 import { CustomGameObject, Direction, GameObject, LevelName, Position } from './types';
 
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
 /**
  * Utility function to ensure we handle the full possible range of types when checking a variable for a possible
  * type in a union.
@@ -12,6 +15,8 @@ import { CustomGameObject, Direction, GameObject, LevelName, Position } from './
 export function exhaustiveGuard(_value: never): never {
   throw new Error(`Error! Reached forbidden guard function with unexpected value: ${JSON.stringify(_value)}`);
 }
+<<<<<<< HEAD
+=======
 
 export function isArcadePhysicsBody(
   body: Phaser.Physics.Arcade.Body | Phaser.Physics.Arcade.StaticBody | MatterJS.BodyType | null,
@@ -46,3 +51,4 @@ export function getDirectionOfObjectFromAnotherObject(object: Position, targetOb
 export function isLevelName(levelName: string): levelName is LevelName {
   return LEVEL_NAME[levelName] !== undefined;
 }
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840

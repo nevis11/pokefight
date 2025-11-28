@@ -1,8 +1,12 @@
 import * as Phaser from 'phaser';
 import { SCENE_KEYS } from './scene-keys';
+<<<<<<< HEAD
+import { ASSET_PACK_KEYS } from '../common/assets';
+=======
 import { ASSET_KEYS, ASSET_PACK_KEYS } from '../common/assets';
 import { LevelData } from '../common/types';
 import { DataManager } from '../common/data-manager';
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
 
 export class PreloadScene extends Phaser.Scene {
   constructor() {
@@ -17,6 +21,9 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   public create(): void {
+<<<<<<< HEAD
+    this.scene.start(SCENE_KEYS.GAME_SCENE);
+=======
     this.#createAnimations();
 
     const sceneData: LevelData = {
@@ -55,5 +62,6 @@ export class PreloadScene extends Phaser.Scene {
       repeat: -1,
       delay: 0,
     });
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
   }
 }

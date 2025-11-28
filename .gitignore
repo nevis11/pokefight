@@ -1,4 +1,7 @@
 node_modules
 .DS_Store
 dist
+<<<<<<< HEAD
+=======
 project-task-tracker.todo
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
