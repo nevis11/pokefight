@@ -99,7 +99,10 @@ Data Manager:
 
 UI:
   ☐ player health
+<<<<<<< HEAD
   ☐ pause menu
+=======
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
   ☐ game over
   ☐ dialog ui
 

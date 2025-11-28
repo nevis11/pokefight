@@ -2,7 +2,11 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+<<<<<<< HEAD
 ![Monster Tamer Logo](/docs/logo.png?raw=true 'Monster Tamer Logo')
+=======
+![Legend of the Wispguard Logo](/docs/logo.png?raw=true 'Legend of the Wispguard Logo')
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
 
 Legend of the Wispguard - Zelda-like Tutorial with [Phaser 3](https://github.com/photonstorm/phaser)!
 
@@ -76,7 +80,11 @@ This project would have not been possible without the use of some awesome assets
 
 | Asset                       | Author           | Link                                                                   |
 | --------------------------- | ---------------- | ---------------------------------------------------------------------- |
+<<<<<<< HEAD
 | Press Start 2P Font         | CodeMan38        | [Kenney Fonts](https://fonts.google.com/specimen/Press+Start+2P)       |
+=======
+| Press Start 2P Font         | CodeMan38        | [Google Fonts](https://fonts.google.com/specimen/Press+Start+2P)       |
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
 | Player                      | Foozle           | [Legend Main Character](https://foozlecc.itch.io/legend-main-character)|
 | Enemies                     | Foozle           | [Legend Enemy Pack 1](https://foozlecc.itch.io/legend-enemy-pack-1)    |
 | Dungeon Pack                | Foozle           | [Legend Spider Dungeon](https://foozlecc.itch.io/legend-spider-dungeon)|

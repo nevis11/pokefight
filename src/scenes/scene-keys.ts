@@ -1,4 +1,9 @@
 export const SCENE_KEYS = {
   PRELOAD_SCENE: 'PRELOAD_SCENE',
   GAME_SCENE: 'GAME_SCENE',
+<<<<<<< HEAD
+=======
+  UI_SCENE: 'UI_SCENE',
+  GAME_OVER_SCENE: 'GAME_OVER_SCENE',
+>>>>>>> eeeb9ea60c069d386a291cbc1855c7f22c578840
 } as const;
